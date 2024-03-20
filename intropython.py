@@ -39,4 +39,33 @@ print (a and b)
 # Los operandos booleanos y de comparacion son muy utilizados al
 #definir condiciones
 
+# Sentencias de control de flujo: en general un programa se ejecuta
+# linea por linea de manera secuencial. Se puede romper esa sencuencialidad 
+# empleando un conjunto de sentencias (expresiones) que permite:
+# 1. seleccionar la ejecucion de un bloque de codigo
+# 2. seleccionar entre ejecutar un bloque de codigo u otro bloque de codigo
+# de esa manera podemos "romper# la secuencialidad 
+# principios del paradigma de programacion estructurado
+
+# Sentencia if. Si se cumple una condicion (se evalua como True) se ejecuta un bloque de codigo
+# se ejecuta un bloque de codigo
+
+print("linea 1")
+print ("linea 2")
+
+if 5>3:
+    print("Esto se muestra si la condicion es verdadera")
+
+else:
+    print("Esto se muestra si la condicion es falsa")
+
+entrada= int(input("Cuantos años tiene?"))
+
+if entrada< 18:
+    print(" Es menor de edad.")
+
+else:
+    print(" ya esta grande.")
+
+
 
